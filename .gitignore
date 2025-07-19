@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+backend/.env
+backend/.env.*
+backend/venv/
+backend/.venv/
+backend/dist/
+backend/build/
+backend/*.egg-info/
+
+# VSCode/IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test/coverage
+coverage/
+
+# Custom: exclude secrets
+backend/rtsp_secrets.json
+backend/*secrets*.json
+backend/*password*.json
+backend/*secret*.env
+backend/*password*.env
+
+# Windows
+Thumbs.db
+
+# Mac
+.DS_Store
+
+# Misc
+.env
+.env.* 
